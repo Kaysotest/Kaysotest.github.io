@@ -3,9 +3,8 @@ body{
 }
 .header{
 	background-image: url('IMG_1648.jpg');
-	height: 95vh;
+	max-height: 100vh;
 	background-size: cover;
-	overflow: hidden;
 	margin:0;
 }
 .app:before{
