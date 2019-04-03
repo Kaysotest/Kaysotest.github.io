@@ -85,3 +85,7 @@ body{
 	color:#fff;
 	font-weight: 600;
 }
+
+.nav-links:hover{
+	color: hotpink;
+}
