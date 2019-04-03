@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Graduate|IM+Fell+DW+Pica|Playfair+Display+SC|Shrikhand|Special+Elite');
+
 body{
 	overflow-x: hidden;
 }
@@ -41,29 +43,33 @@ body{
 	font-size: 1.5rem;
 	padding:0;
 	font-weight: 900;
-	font-family: serif;
 	max-width: 40px;
 }
 
 .ltr-1{
 	background-color: red;
 	transform: rotate(-10deg);
+	font-family: 'Shrikhand', cursive;
 }
 .ltr-2{
 	background-color: pink;
 	transform: rotate(10deg);
+	font-family: 'IM Fell DW Pica', serif;
 }
 .ltr-3{
 	background-color: yellow;
 	transform: rotate(-14deg);
+	font-family: 'Graduate', cursive;
 }
 .ltr-4{
 	background-color: lightblue;
 	transform: rotate(12deg);
+	font-family: 'Playfair Display SC', serif;
 }
 .ltr-5{
 	background-color: hotpink;
 	transform: rotate(-7deg);
+	font-family: 'Special Elite', cursive;
 }
 
 .center-viewport{
