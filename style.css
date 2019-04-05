@@ -55,9 +55,10 @@ body{
 .header{
 	background-image: url('IMG_1648.jpg');
 	overflow: hidden;
+	max-height: 100vh;
 	background-attachment: fixed;
 	background-size: cover;
-	max-height: 100vh;
+	max-height: 100vh !important;
 	margin:0;
 }
 .header:before{
