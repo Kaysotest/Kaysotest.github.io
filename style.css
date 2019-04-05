@@ -53,8 +53,6 @@ body{
 	animation: 1s ease-out 0s 1 from-bottom;
 }
 .hero-header{
-	max-height:100vh;
-	overflow-y: hidden;
 }
 
 .header{
