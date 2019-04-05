@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Graduate|IM+Fell+DW+Pica|Playfair+Display|Playfair+Display+SC|Shrikhand|Special+Elite');
 body{
 	overflow-x: hidden;
-	background-image: url('IMG_1648.jpg');
-	background-attachment: fixed;
-	background-size: cover;
 }
 @keyframes opacity{
 	0% {
@@ -56,13 +53,15 @@ body{
 	animation: 1s ease-out 0s 1 from-bottom;
 }
 .header{
-
+	background-image: url('IMG_1648.jpg');
+	background-attachment: fixed;
+	background-size: cover;
 	max-height: 100vh;
 	margin:0;
 }
-body:before{
+.header:before{
 	content:"";
-	position: fixed;
+	position: absolute;
 	left: 0;
 	right: 0;
 	top:0;
@@ -149,11 +148,13 @@ body:before{
 }
 
 .blog{
-	background:#ff69b4;
+	background:hotpink;
+	z-index: 999;
 
 }
 
 .card-item{
 	background-color:transparent !important;
 	margin-bottom: 1em;
+	color:white;
 }
