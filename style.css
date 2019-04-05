@@ -142,3 +142,18 @@ body:before{
 .nav-links:hover{
 	color: hotpink;
 }
+
+
+.blog-title{
+	color:#fff;
+}
+
+.blog{
+	background:#ff69b4;
+
+}
+
+.card-item{
+	background-color:transparent !important;
+	margin-bottom: 1em;
+}
